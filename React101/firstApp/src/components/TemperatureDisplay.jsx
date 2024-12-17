@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
-function TemperatureDisplay() {
-    const [temp,setTemp] = useState("");
+function TemperatureDisplay({temp}) {
     const farenheit = (temp * (9/5)) + 32 ;
   return (
     <div>
