@@ -10,6 +10,7 @@ import TemperatureInput from './components/TemperatureInput'
 import Router from './components/Router'
 import Lifecycle from './components/Lifecycle'
 import UseEffectvariations from './components/UseEffectvariations'
+import UseRef from './components/UseRef'
 
 function App() {
   //state updation will happen only where the state is defined 
@@ -26,7 +27,8 @@ function App() {
     <TemperatureDisplay temp = {temp}></TemperatureDisplay> */}
     {/* <Router></Router> */}
     {/* <Lifecycle/> */}
-    <UseEffectvariations/>
+    {/* <UseEffectvariations/> */}
+    <UseRef/>
     </>
   )
 }
