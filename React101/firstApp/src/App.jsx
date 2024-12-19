@@ -8,6 +8,8 @@ import SimpleForm from './components/SimpleForm'
 import TemperatureDisplay from './components/TemperatureDisplay'
 import TemperatureInput from './components/TemperatureInput'
 import Router from './components/Router'
+import Lifecycle from './components/Lifecycle'
+import UseEffectvariations from './components/UseEffectvariations'
 
 function App() {
   //state updation will happen only where the state is defined 
@@ -22,7 +24,9 @@ function App() {
     {/* <SimpleForm></SimpleForm> */}
     {/* <TemperatureInput temp = {temp} handleTempChange = {handleTempChange}></TemperatureInput>
     <TemperatureDisplay temp = {temp}></TemperatureDisplay> */}
-    <Router></Router>
+    {/* <Router></Router> */}
+    {/* <Lifecycle/> */}
+    <UseEffectvariations/>
     </>
   )
 }
