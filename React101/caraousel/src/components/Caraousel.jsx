@@ -38,7 +38,7 @@ function Caraousel() {
     useEffect(() => {
         const timer = setInterval(()=>{
             nextItem();
-        },1500);
+        },2000);
         return () => {
             clearInterval(timer);
         }
