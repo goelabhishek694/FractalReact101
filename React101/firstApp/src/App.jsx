@@ -11,6 +11,7 @@ import Router from './components/Router'
 import Lifecycle from './components/Lifecycle'
 import UseEffectvariations from './components/UseEffectvariations'
 import UseRef from './components/UseRef'
+import Context from './components/Context'
 
 function App() {
   //state updation will happen only where the state is defined 
@@ -28,7 +29,8 @@ function App() {
     {/* <Router></Router> */}
     {/* <Lifecycle/> */}
     {/* <UseEffectvariations/> */}
-    <UseRef/>
+    {/* <UseRef/> */}
+    <Context></Context>
     </>
   )
 }
