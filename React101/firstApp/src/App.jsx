@@ -12,6 +12,7 @@ import Lifecycle from './components/Lifecycle'
 import UseEffectvariations from './components/UseEffectvariations'
 import UseRef from './components/UseRef'
 import Context from './components/Context'
+import ThemeManager from './components/themesContextAPI/ThemeManager'
 
 function App() {
   //state updation will happen only where the state is defined 
@@ -30,7 +31,8 @@ function App() {
     {/* <Lifecycle/> */}
     {/* <UseEffectvariations/> */}
     {/* <UseRef/> */}
-    <Context></Context>
+    {/* <Context></Context> */}
+    <ThemeManager></ThemeManager>
     </>
   )
 }
